@@ -5,14 +5,19 @@ public class Sample
 
 	public void add()
 	{
-		System.out.println("m1 go git");
+		System.out.println("Addition of sample");
 	}
 	
 	public void sub()
 	{
-		System.out.println("m2 go git");
+		System.out.println("Subtraction of sample");
 	}
 	
+	
+	public void mul()
+	{
+		System.out.println("Multiplication of Sample");
+	}
 	
 	
 	public static void main(String[] args) 
@@ -28,6 +33,7 @@ public class Sample
 	Sample a=new Sample();
 	a.add();
 	a.sub();
+	a.mul();
 	}
 	
 }
